@@ -6,10 +6,11 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, MinMaxScaler
 import matplotlib.pyplot as plt
 from collections import defaultdict
+from scipy.stats import poisson
 
 def train_model(X, y):
     # Dividir los datos en conjuntos de entrenamiento y prueba
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2, random_state = 0)
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
 
     # Definir la red neuronal
     model = Sequential()
@@ -49,13 +50,7 @@ def simulate_game(model, X, df):
     results['points2'] = results.apply(lambda row: 3 if row['winner'] == row['team2'] else 
                                     (1 if row['winner'] == 'DRAW' else 0), axis=1)
 
-    # Sumar los puntos de cada equipo
-    points = results.groupby('team1')['points1'].sum() + results.groupby('team2')['points2'].sum()
-
-    # El equipo con más puntos es el ganador
-    winner = points.idxmax()
-
-    return winner
+    return results
 
 # Cargar los datos históricos
 df = pd.read_csv('results_with_winner.csv')
@@ -84,19 +79,33 @@ winners = defaultdict(int)
 
 # Realizar 10000 iteraciones
 for _ in range(10000):
-    winner = simulate_game(model, X, df)
+    results = simulate_game(model, X, df)
+    points = results.groupby('team1')['points1'].sum() + results.groupby('team2')['points2'].sum()
+    winner = points.idxmax()
     winners[winner] += 1
 
 # Calcular la media
 mean_wins = {team: wins / 10000 for team, wins in winners.items()}
 
-# Imprimir las estadísticas
+# Contar las veces que cada equipo ha aparecido en un partido del dataset
+team_counts = df['home_team'].value_counts() + df['away_team'].value_counts()
+
+# Imprimir las estadísticas y conteo de apariciones
 for team, mean in mean_wins.items():
+    appearances = team_counts[team]
+    print(f'El equipo {team} ha estado en la Copa Oro {appearances} veces.')
     print(f'El equipo {team} ganó en promedio {mean} veces.')
 
 # Generar la gráfica
 teams = list(mean_wins.keys())
 means = list(mean_wins.values())
+
+# Obtener el equipo con la probabilidad más alta de ganar
+winner = max(mean_wins, key=mean_wins.get)
+
+# Imprimir el equipo más probable que gane
+print('====================================================================================')
+print(f"El equipo más probable que gane es: {winner}")
 
 plt.bar(teams, means)
 plt.xlabel('Equipos')
