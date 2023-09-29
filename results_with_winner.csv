@@ -1,0 +1,112 @@
+date,home_team,away_team,home_score,away_score,tournament,city,country,neutral,winner
+15/06/2019,Canada,Martinique,4,0,Gold Cup,Los Angeles,United States,TRUE,Canada
+15/06/2019,Mexico,Cuba,7,0,Gold Cup,Los Angeles,United States,TRUE,Mexico
+16/06/2019,Haiti,Bermuda,2,1,Gold Cup,San José,Jamaica,TRUE,Haiti
+16/06/2019,Costa Rica,Nicaragua,4,0,Gold Cup,San José,Jamaica,TRUE,Costa Rica
+17/06/2019,Curaçao,El Salvador,0,1,Gold Cup,Kingston,Jamaica,TRUE,El Salvador
+17/06/2019,Jamaica,Honduras,3,2,Gold Cup,Kingston,Jamaica,FALSE,Jamaica
+18/06/2019,Panama,Trinidad and Tobago,2,0,Gold Cup,Saint Paul,United States,TRUE,Panama
+18/06/2019,United States,Guyana,4,0,Gold Cup,Saint Paul,United States,FALSE,United States
+19/06/2019,Cuba,Martinique,0,3,Gold Cup,Denver,United States,TRUE,Martinique
+19/06/2019,Mexico,Canada,3,1,Gold Cup,Denver,United States,TRUE,Mexico
+20/06/2019,Nicaragua,Haiti,0,2,Gold Cup,Frisco,United States,TRUE,Haiti
+20/06/2019,Costa Rica,Bermuda,2,1,Gold Cup,Frisco,United States,TRUE,Costa Rica
+21/06/2019,El Salvador,Jamaica,0,0,Gold Cup,Houston,United States,TRUE,DRAW
+21/06/2019,Honduras,Curaçao,0,1,Gold Cup,Houston,United States,TRUE,Curaçao
+22/06/2019,Guyana,Panama,2,4,Gold Cup,Cleveland,United States,TRUE,Panama
+22/06/2019,United States,Trinidad and Tobago,6,0,Gold Cup,Cleveland,United States,FALSE,United States
+23/06/2019,Canada,Cuba,7,0,Gold Cup,Charlotte,United States,TRUE,Canada
+23/06/2019,Martinique,Mexico,2,3,Gold Cup,Charlotte,United States,TRUE,Mexico
+24/06/2019,Bermuda,Nicaragua,2,0,Gold Cup,New Jersey,United States,TRUE,Bermuda
+24/06/2019,Haiti,Costa Rica,2,1,Gold Cup,New Jersey,United States,TRUE,Haiti
+25/06/2019,Jamaica,Curaçao,1,1,Gold Cup,Los Angeles,United States,TRUE,DRAW
+25/06/2019,Honduras,El Salvador,4,0,Gold Cup,Los Angeles,United States,TRUE,Honduras
+26/06/2019,Trinidad and Tobago,Guyana,1,1,Gold Cup,Kansas City,United States,TRUE,DRAW
+26/06/2019,United States,Panama,1,0,Gold Cup,Kansas City,United States,FALSE,United States
+29/06/2019,Haiti,Canada,3,2,Gold Cup,Houston,United States,TRUE,Haiti
+29/06/2019,Mexico,Costa Rica,1,1,Gold Cup,Houston,United States,TRUE,DRAW
+30/06/2019,Jamaica,Panama,1,0,Gold Cup,Philadelphia,United States,TRUE,Jamaica
+30/06/2019,United States,Curaçao,1,0,Gold Cup,Philadelphia,United States,FALSE,United States
+2/7/2019,Haiti,Mexico,0,1,Gold Cup,Glendale,United States,TRUE,Mexico
+3/7/2019,United States,Jamaica,3,1,Gold Cup,Nashville,United States,FALSE,United States
+7/7/2019,United States,Mexico,0,1,Gold Cup,Chicago,United States,FALSE,Mexico
+2/7/2021,Haiti,Saint Vincent and the Grenadines,6,1,Gold Cup qualification,Fort Lauderdale,United States,TRUE,Haiti
+2/7/2021,Trinidad and Tobago,Montserrat,6,1,Gold Cup qualification,Fort Lauderdale,United States,TRUE,Trinidad and Tobago
+2/7/2021,Bermuda,Barbados,8,1,Gold Cup qualification,Fort Lauderdale,United States,TRUE,Bermuda
+3/7/2021,Guatemala,Guyana,4,0,Gold Cup qualification,Fort Lauderdale,United States,TRUE,Guatemala
+3/7/2021,Cuba,French Guiana,0,3,Gold Cup qualification,Fort Lauderdale,United States,TRUE,French Guiana
+3/7/2021,Guadeloupe,Bahamas,2,0,Gold Cup qualification,Fort Lauderdale,United States,TRUE,Guadeloupe
+6/7/2021,Haiti,Bermuda,4,1,Gold Cup qualification,Fort Lauderdale,United States,TRUE,Haiti
+6/7/2021,Guatemala,Guadeloupe,1,1,Gold Cup qualification,Fort Lauderdale,United States,TRUE,DRAW
+6/7/2021,Trinidad and Tobago,French Guiana,1,1,Gold Cup qualification,Fort Lauderdale,United States,TRUE,DRAW
+10/7/2021,Mexico,Trinidad and Tobago,0,0,Gold Cup,Arlington,United States,TRUE,DRAW
+11/7/2021,El Salvador,Guatemala,2,0,Gold Cup,Frisco,United States,TRUE,El Salvador
+11/7/2021,Canada,Martinique,4,1,Gold Cup,Kansas City,United States,TRUE,Canada
+11/7/2021,United States,Haiti,1,0,Gold Cup,Kansas City,United States,FALSE,United States
+12/7/2021,Jamaica,Suriname,2,0,Gold Cup,Orlando,United States,TRUE,Jamaica
+12/7/2021,Costa Rica,Guadeloupe,3,1,Gold Cup,Orlando,United States,TRUE,Costa Rica
+13/07/2021,Qatar,Panama,3,3,Gold Cup,Houston,United States,TRUE,DRAW
+13/07/2021,Honduras,Grenada,4,0,Gold Cup,Houston,United States,TRUE,Honduras
+14/07/2021,Trinidad and Tobago,El Salvador,0,2,Gold Cup,Frisco,United States,TRUE,El Salvador
+14/07/2021,Guatemala,Mexico,0,3,Gold Cup,Dallas,United States,TRUE,Mexico
+15/07/2021,Haiti,Canada,1,4,Gold Cup,Kansas City,United States,TRUE,Canada
+15/07/2021,United States,Martinique,6,1,Gold Cup,Kansas City,United States,FALSE,United States
+16/07/2021,Guadeloupe,Jamaica,1,2,Gold Cup,Orlando,United States,TRUE,Jamaica
+16/07/2021,Suriname,Costa Rica,1,2,Gold Cup,Orlando,United States,TRUE,Costa Rica
+17/07/2021,Grenada,Qatar,0,4,Gold Cup,Houston,United States,TRUE,Qatar
+17/07/2021,Panama,Honduras,2,3,Gold Cup,Houston,United States,TRUE,Honduras
+18/07/2021,Guatemala,Trinidad and Tobago,1,1,Gold Cup,Frisco,United States,TRUE,DRAW
+18/07/2021,Mexico,El Salvador,1,0,Gold Cup,Dallas,United States,TRUE,Mexico
+18/07/2021,Martinique,Haiti,1,2,Gold Cup,Frisco,United States,TRUE,Haiti
+18/07/2021,United States,Canada,1,0,Gold Cup,Kansas City,United States,FALSE,United States
+20/07/2021,Suriname,Guadeloupe,2,1,Gold Cup,Houston,United States,TRUE,Suriname
+20/07/2021,Costa Rica,Jamaica,1,0,Gold Cup,Orlando,United States,TRUE,Costa Rica
+20/07/2021,Panama,Grenada,3,1,Gold Cup,Orlando,United States,TRUE,Panama
+20/07/2021,Honduras,Qatar,0,2,Gold Cup,Houston,United States,TRUE,Qatar
+24/07/2021,Mexico,Honduras,3,0,Gold Cup,Glendale,United States,TRUE,Mexico
+24/07/2021,Qatar,El Salvador,3,2,Gold Cup,Glendale,United States,TRUE,Qatar
+25/07/2021,Costa Rica,Canada,0,2,Gold Cup,Arlington,United States,TRUE,Canada
+25/07/2021,United States,Jamaica,1,0,Gold Cup,Arlington,United States,FALSE,United States
+29/07/2021,Mexico,Canada,2,1,Gold Cup,Houston,United States,TRUE,Mexico
+29/07/2021,United States,Qatar,1,0,Gold Cup,Austin,United States,FALSE,United States
+1/8/2021,United States,Mexico,1,0,Gold Cup,Las Vegas,United States,FALSE,United States
+16/06/2023,Antigua and Barbuda,Guadeloupe,0,5,Gold Cup qualification,Fort Lauderdale,United States,TRUE,Guadeloupe
+16/06/2023,Martinique,Saint Lucia,3,1,Gold Cup qualification,Fort Lauderdale,United States,TRUE,Martinique
+16/06/2023,Curaçao,Saint Kitts and Nevis,1,1,Gold Cup qualification,Fort Lauderdale,United States,TRUE,DRAW
+17/06/2023,Guyana,Grenada,1,1,Gold Cup qualification,Fort Lauderdale,United States,TRUE,DRAW
+17/06/2023,Suriname,Puerto Rico,0,0,Gold Cup qualification,Fort Lauderdale,United States,TRUE,DRAW
+17/06/2023,French Guiana,Sint Maarten,4,1,Gold Cup qualification,Fort Lauderdale,United States,TRUE,French Guiana
+20/06/2023,Guadeloupe,Guyana,2,0,Gold Cup qualification,Fort Lauderdale,United States,TRUE,Guadeloupe
+20/06/2023,Martinique,Puerto Rico,2,0,Gold Cup qualification,Fort Lauderdale,United States,TRUE,Martinique
+20/06/2023,Saint Kitts and Nevis,French Guiana,1,1,Gold Cup qualification,Fort Lauderdale,United States,TRUE,DRAW
+24/06/2023,United States,Jamaica,1,1,Gold Cup,Chicago,United States,FALSE,DRAW
+25/06/2023,Trinidad and Tobago,Saint Kitts and Nevis,3,0,Gold Cup,Fort Lauderdale,United States,TRUE,Trinidad and Tobago
+25/06/2023,Haiti,Qatar,2,1,Gold Cup,Houston,United States,TRUE,Haiti
+25/06/2023,Mexico,Honduras,4,0,Gold Cup,Houston,United States,TRUE,Mexico
+26/06/2023,El Salvador,Martinique,1,2,Gold Cup,Fort Lauderdale,United States,TRUE,Martinique
+26/06/2023,Costa Rica,Panama,1,2,Gold Cup,Fort Lauderdale,United States,TRUE,Panama
+27/06/2023,Canada,Guadeloupe,2,2,Gold Cup,Toronto,Canada,FALSE,DRAW
+27/06/2023,Guatemala,Cuba,1,0,Gold Cup,Fort Lauderdale,United States,TRUE,Guatemala
+28/06/2023,Jamaica,Trinidad and Tobago,4,1,Gold Cup,St. Louis,United States,TRUE,Jamaica
+28/06/2023,United States,Saint Kitts and Nevis,6,0,Gold Cup,St. Louis,United States,FALSE,United States
+29/06/2023,Qatar,Honduras,1,1,Gold Cup,Glendale,United States,TRUE,DRAW
+29/06/2023,Haiti,Mexico,1,3,Gold Cup,Glendale,United States,TRUE,Mexico
+30/06/2023,Martinique,Panama,1,2,Gold Cup,Harrison,United States,TRUE,Panama
+30/06/2023,El Salvador,Costa Rica,0,0,Gold Cup,Harrison,United States,TRUE,DRAW
+1/7/2023,Cuba,Guadeloupe,1,4,Gold Cup,Houston,United States,TRUE,Guadeloupe
+1/7/2023,Guatemala,Canada,0,0,Gold Cup,Houston,United States,TRUE,DRAW
+2/7/2023,United States,Trinidad and Tobago,6,0,Gold Cup,Charlotte,United States,FALSE,United States
+2/7/2023,Jamaica,Saint Kitts and Nevis,5,0,Gold Cup,Santa Clara,United States,TRUE,Jamaica
+2/7/2023,Honduras,Haiti,2,1,Gold Cup,Charlotte,United States,TRUE,Honduras
+2/7/2023,Mexico,Qatar,0,1,Gold Cup,Santa Clara,United States,TRUE,Qatar
+4/7/2023,Costa Rica,Martinique,6,4,Gold Cup,Harrison,United States,TRUE,Costa Rica
+4/7/2023,Panama,El Salvador,2,2,Gold Cup,Houston,United States,TRUE,DRAW
+4/7/2023,Guadeloupe,Guatemala,2,3,Gold Cup,Harrison,United States,TRUE,Guatemala
+4/7/2023,Canada,Cuba,4,2,Gold Cup,Houston,United States,TRUE,Canada
+8/7/2023,Panama,Qatar,4,0,Gold Cup,Arlington,United States,TRUE,Panama
+8/7/2023,Mexico,Costa Rica,2,0,Gold Cup,Arlington,United States,TRUE,Mexico
+9/7/2023,Guatemala,Jamaica,0,1,Gold Cup,Cincinnati,United States,TRUE,Jamaica
+9/7/2023,United States,Canada,2,2,Gold Cup,Cincinnati,United States,FALSE,DRAW
+12/7/2023,United States,Panama,1,1,Gold Cup,San Diego,United States,FALSE,DRAW
+12/7/2023,Jamaica,Mexico,0,3,Gold Cup,Paradise,United States,TRUE,Mexico
+16/07/2023,Mexico,Panama,1,0,Gold Cup,Inglewood,United States,TRUE,Mexico
